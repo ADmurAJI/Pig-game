@@ -77,7 +77,7 @@ btnHold.addEventListener("click", function () {
       totalScrols[activPlayer];
     const newLocal = totalScrols[activPlayer];
     //2. Если общие очки >= 100 то текущий игрок выйграл, иначе передаём ход другому игроку
-    if (totalScrols[activPlayer] >= 10) {
+    if (totalScrols[activPlayer] >= 100) {
       isPlaying = false;
       document
         .querySelector(`.player--${activPlayer}`)
